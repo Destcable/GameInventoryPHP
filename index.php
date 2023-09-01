@@ -12,3 +12,5 @@ $character = new Character(1, "Герой", $inventory);
 
 $character->pickUpItem($item1);
 $character->pickUpItem($item2);
+
+$character->dropItem($item1);
