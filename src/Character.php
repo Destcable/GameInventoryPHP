@@ -17,6 +17,11 @@ class Character
 
     public function pickUpItem(Item $item)
     {
+        $this->inventory->addItem($item);
+    }
 
+    public function dropItem(Item $item)
+    { 
+        $this->inventory->removeItem($item);
     }
 }
