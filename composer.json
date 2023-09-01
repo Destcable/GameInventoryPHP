@@ -1,0 +1,15 @@
+{
+    "name": "destcable/game-inventory-php",
+    "autoload": {
+        "psr-4": {
+            "Destcable\\InventoryPHP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Destcable",
+            "email": "destcoder@gmail.com"
+        }
+    ],
+    "require": {}
+}
